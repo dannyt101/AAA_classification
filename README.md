@@ -17,7 +17,8 @@ There have been 4 models trained/fine-tuned:
 
 # Training
 The models have been trained using EHRs from MIMIC-IV clinical notes dataset - https://physionet.org/content/mimic-iv-note/2.2/
-The EHRs were annotated by a Vascular Surgery Specialist Registrar/Resident
+
+The EHRs were annotated by a Vascular Surgery Specialist Registrar/Resident. A sliding window approach was used for BERT models considering the size of EHRs and the 512 token window.
 
 # Performance
 **This is a proof of concept. The models have not been externally validated using an alternative EHR dataset so models must not be used outside of research**
