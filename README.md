@@ -4,8 +4,8 @@ This repository hosts the scripts used to develop a multi-tiered NLP classificat
 
 # Classification stages
 
-1. Identification of vascular patients
-2. Identification of patients who have under AAA repair
+1. Identification of acute vascular patients
+2. Identification of patients who have undergone a AAA repair during their admission
 3. Classification of AAA repair - primary vs revision
 
 # Types of model
