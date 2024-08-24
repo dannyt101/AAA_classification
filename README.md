@@ -1,10 +1,10 @@
 # AAA repair classification NLP model
 
-This repository hosts the scripts used to develop a multi-tiered NLP classification model for the identification and classification of patients who have undergone abdominal aortic aneurysm (AAA) repair and if so whether it was a primary or revision repair using electronic health records (EHRs)
+This repository hosts the scripts used to develop a multi-tiered NLP classification model for the identification and classification of patients who have undergone abdominal aortic aneurysm (AAA) repair during a hospital admission and if so whether it was a primary or revision repair using unstructured electronic health records (EHRs)
 
 # Classification stages
 
-1. Identification of acute vascular patients
+1. Identification of acute/elective vascular patients
 2. Identification of patients who have undergone a AAA repair during their admission
 3. Classification of AAA repair - primary vs revision
 
@@ -18,7 +18,7 @@ There have been 4 models trained/fine-tuned:
 # Training
 The models have been trained using EHRs from MIMIC-IV clinical notes dataset - https://physionet.org/content/mimic-iv-note/2.2/
 
-The EHRs were annotated by a Vascular Surgery Specialist Registrar/Resident. A sliding window approach was used for BERT models considering the size of EHRs and the 512 token window.
+The EHRs were annotated by a Vascular Surgery Specialist Registrar/Resident. A sliding window approach was used for BERT models considering the size of EHRs and the 512-token limit.
 
 # Performance
 **This is a proof of concept. The models have not been externally validated using an alternative EHR dataset so models must not be used outside of research**
