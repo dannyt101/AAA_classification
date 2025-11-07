@@ -1,5 +1,7 @@
 # AAA repair classification NLP model
 
+Publication: https://www.nature.com/articles/s41598-025-11870-6
+
 This repository hosts the scripts used to develop a multi-tiered NLP classification model for the identification and classification of patients who have undergone abdominal aortic aneurysm (AAA) repair during a hospital admission and if so whether it was a primary or revision repair using unstructured electronic health records (EHRs)
 
 # Classification stages
